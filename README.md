@@ -44,8 +44,7 @@ Use `--seed`, `--fix_order True`, an explicit `--device`, and `--runs` greater t
 | Paper component | Framework location |
 |---|---|
 | Unified incremental task stream | `utils/stream.py` |
-| Analytic recursive classifier | `agents/utils/analytic_linear.py` |
-| ADR analytic learner | `agents/adr.py` with the tested core in `agents/acil.py` |
+| ADR analytic learner | `agents/adr.py` |
 | Replay baselines | `agents/er.py`, `agents/der.py`, `agents/aser.py`, `agents/clops.py`, `agents/fast_icarl.py` |
 | Regularization/prototype baselines | `agents/ewc.py`, `agents/lwf.py`, `agents/pass_agent.py`, `agents/il2a_agent.py` |
 | Encoders | `models/encoders.py`, `models/ADFCNN.py`, `models/IFNet.py`, `models/EISATC.py` |
